@@ -1,0 +1,5 @@
+kafka:
+  image: spotify/kafka
+  environment:
+    ADVERTISED_HOST: 192.168.99.101   #`docker-machine ip dev`
+    ADVERTISED_PORT: 9092
