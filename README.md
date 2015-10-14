@@ -44,3 +44,5 @@ Please note that `192.168.99.101` is the IP of your docker machine, change to ma
 * Publish some data on opensensors.io
 
 `$ mosquitto_pub -h mqtt.opensensors.io -i <CLIENTID> -t <TOPIC> -u <USER> -m 'My first message' -P <PASSWORD>`
+
+Please make sure to user a *different* CLIENTID with `mosquitto_pub` than you use in `kafka-connector.yml`
