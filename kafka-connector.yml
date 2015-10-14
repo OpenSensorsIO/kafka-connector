@@ -1,0 +1,14 @@
+mqtt:
+  broker: mqtt.staging.opensensors.co.uk
+  broker_port: 1883
+  client_id: <CLIENTID>
+  device_password: <PASSWORD>
+  username: <USER>
+  consume_topics:
+    - /users/<USER>/test
+    - /users/<USER>/foo
+
+kafka:
+  zookeeper: zookeeper
+  zookeeper_port: 2181
+  produce_topic: opensensors
